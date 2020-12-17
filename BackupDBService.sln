@@ -1,24 +1,47 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupDBService", "BackupDBService\BackupDBService.csproj", "{EB4372ED-35D5-495A-832B-7482BAE4A6B1}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BackupDBServiceSetup", "BackupDBServiceSetup\BackupDBServiceSetup.vdproj", "{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTestProject", "DBTestProject\DBTestProject.csproj", "{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Debug|x86.ActiveCfg = Debug|x86
 		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Debug|x86.Build.0 = Debug|x86
+		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Release|Any CPU.ActiveCfg = Release|x86
 		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Release|x86.ActiveCfg = Release|x86
 		{EB4372ED-35D5-495A-832B-7482BAE4A6B1}.Release|x86.Build.0 = Release|x86
+		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Debug|Any CPU.ActiveCfg = Debug
+		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Debug|Any CPU.Build.0 = Debug
 		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Debug|x86.ActiveCfg = Debug
+		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Release|Any CPU.ActiveCfg = Release
+		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Release|Any CPU.Build.0 = Release
 		{9AB7BEA5-0BAD-4AFE-B35D-2D1DCA7270BB}.Release|x86.ActiveCfg = Release
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8730A89-4402-4FE7-B3E8-6B0B8AC7DAAB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85B4118C-A89F-4AA5-9761-156172B6CBC3}
 	EndGlobalSection
 EndGlobal
